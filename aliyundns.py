@@ -6,7 +6,7 @@ from aliyunsdkcore.acs_exception.exceptions import ClientException
 from aliyunsdkcore.acs_exception.exceptions import ServerException
 from aliyunsdkalidns.request.v20150109.DescribeDomainRecordsRequest import DescribeDomainRecordsRequest
 from aliyunsdkalidns.request.v20150109.UpdateDomainRecordRequest import UpdateDomainRecordRequest
-client = AcsClient("LTAI5tMCDuUPxhu9fDNNav7W","yLjGO9Mr5GKTjfoVXcqco5l3Uraent","cn-hangzhou")
+client = AcsClient("","","cn-hangzhou")
 def get_domain_ip():
     request = DescribeDomainRecordsRequest()
     request.set_accept_format("json")
