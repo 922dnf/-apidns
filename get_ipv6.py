@@ -1,4 +1,4 @@
-import requests                                           2 try:
+import requests                                    
 pageURL='http://ipv6.ipv6-test.ch/ip/?callback=?'
 content=requests.get(pageURL).text.strip("callback")
 data = eval(content)
